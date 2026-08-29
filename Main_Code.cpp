@@ -1,6 +1,6 @@
 /*
    ESP32 <-> INAV 8.x failsafe supervisor
-
+   This is a development version. Use at your own risk.
    Aircraft: X4 multirotor
    FC:       INAV 8.0.x
    FC port:  UART2 configured for MSP
@@ -30,7 +30,6 @@
 
 // CRSF receiver -> ESP32
 HardwareSerial RCSerial(1);
-
 // ESP32 -> INAV UART2
 HardwareSerial INAVSerial(2);
 
